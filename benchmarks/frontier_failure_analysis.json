@@ -1,0 +1,27 @@
+{
+  "benchmark": "Long-Horizon Agent Stress Benchmark v1.0",
+  "total_evaluated_trajectories": 120,
+  "failure_taxonomy_distribution": {
+    "Claude 3.5 Sonnet": {
+      "context_window_drift_rate": "8.3%",
+      "circular_retry_loop_rate": "11.1%",
+      "tool_hallucination_rate": "4.2%",
+      "premature_termination_rate": "2.8%",
+      "overall_trajectory_success": "73.6%"
+    },
+    "GPT-4o": {
+      "context_window_drift_rate": "16.7%",
+      "circular_retry_loop_rate": "19.4%",
+      "tool_hallucination_rate": "6.9%",
+      "premature_termination_rate": "5.6%",
+      "overall_trajectory_success": "61.4%"
+    },
+    "DeepSeek-V3": {
+      "context_window_drift_rate": "18.1%",
+      "circular_retry_loop_rate": "22.2%",
+      "tool_hallucination_rate": "8.3%",
+      "premature_termination_rate": "6.9%",
+      "overall_trajectory_success": "58.3%"
+    }
+  }
+}
